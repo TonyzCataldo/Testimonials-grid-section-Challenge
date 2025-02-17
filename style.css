@@ -264,7 +264,7 @@ header{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        
     }
     #quotation{
         display: block;
@@ -276,6 +276,8 @@ header{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         width: 77.36%;
+        margin-top: 14.125rem;
+        margin-bottom: 13.625rem;
         
     }
     
@@ -295,6 +297,11 @@ header{
     }
     #Patrick{
         grid-column: 2 / 4;
+        
+    }
+    #large-patrick{
+        margin-right: -10px;
+        
     }
     #Kira{
         grid-column: 4 / 5;
